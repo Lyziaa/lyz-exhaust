@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="container">
+            <form id="form">
+                <div class="submit" data-exh="musv8" type="submit">MUSV8</div>
+				<div class="submit" data-exh="p60b40" type="submit">p60b40</div>
+				<div class="submit" data-exh="rb26dett" type="submit">RB26DETT</div>
+                <button id="close">Close</button>
+				<button id="reset">Reset</button>
+            </form>
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
